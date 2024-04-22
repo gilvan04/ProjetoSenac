@@ -189,5 +189,46 @@ padding: 0;
   max-height: 300px;
 }
 
+/* inicio do carrossel*/
+.carrossel{
+  position: relative;
+  max-width: 800px;
+  margin: auto;
+  overflow:hidden;
+}
+.carrosseliner{
+  display: flex;
+}
+
+.carrosselitem{
+  flex: 0 0 auto;
+  width: 100%;
+}
+
+.carrosselitem img{
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.carroselcontrole{ 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 10px;
+
+}
+
+.carroselcontrole.prev{
+  left: 10px;
+}
+
+.carroselcontrole.next{
+  right: 10px;
+}
+
+
+
+
   
  
